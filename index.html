@@ -770,7 +770,7 @@
           </div>
         </div>
 
-        <form class="quote-form" action="https://formspree.io/f/xzeblkaj" method="POST" enctype="multipart/form-data">
+        <form class="quote-form" action="https://formspree.io/f/xzeblkaj" method="POST">
           <h3>Solicitá tu cotización</h3>
           <input type="hidden" name="_subject" value="Nueva solicitud de cotización — Wanderlust">
           <div class="form-row">
@@ -795,15 +795,8 @@
             </select>
           </div>
           <div class="form-row">
-            <label for="q-file">Adjuntar documento</label>
-            <div class="file-row">
-              <span>📎</span>
-              <input id="q-file" name="documento" type="file" style="border:none; padding:0; background:none;">
-            </div>
-          </div>
-          <div class="form-row">
             <label for="q-msg">Mensaje (opcional)</label>
-            <textarea id="q-msg" name="mensaje" rows="3"></textarea>
+            <textarea id="q-msg" name="mensaje" rows="3" placeholder="Contanos qué necesitás traducir. Si tenés el documento a mano, respondé el mail de confirmación adjuntándolo."></textarea>
           </div>
           <button type="submit" class="btn form-submit">Enviar cotización →</button>
         </form>
